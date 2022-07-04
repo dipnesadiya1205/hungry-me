@@ -1,0 +1,334 @@
+{
+	"SERVER_ERROR_MESSAGE": "Internal Server Error.",
+	"UUID_REQUIRE": "uuid is required",
+	"PASSWORD_SAME": "Old password and new password are same",
+	"PASSWORD_RESET_SUCCESS": "Password reset successfully",
+	"NO_UPDATE": "Nothing to update",
+	"PASSWORD_NOT_MATCH": "Password does not match with your current password",
+	"PASSWORD_UPDATE": "Password updated succesfully",
+	"EMAIL": {
+		"EMAIL_EXIST": "Email address is already exist",
+		"EMAIL_SESSION_TIMEOUT": "Email verification link is expired",
+		"EMAIL_VERIFIED": "Your Email address is Successfully verified! Please login to access your account!",
+		"EMAIL_NOT_VERIFIED": "Email address is not verified",
+		"INVALID_TOKEN": "Your Email address token is invalid !!!"
+	},
+	"OTP": {
+		"OTP_GENERATED": "otp generated successfully",
+		"OTP_EXPIRED": "Your otp is expired! Please resend otp",
+		"OTP_INVALID": "Invalid otp",
+		"OTP_LENGTH": "otp must be 6 digits",
+		"OTP_VERIFIED": "otp is verified Successfully",
+		"OTP_REQUIRE": "otp is required",
+		"OTP_TYPE": "otp should be number"
+	},
+	"LOGIN": {
+		"USERNAME_REQUIRED": "Username is required for login",
+		"INVALID_CREDENTIAL": "Invalid username or password",
+		"LOGIN_SUCCESS": "Login Successfull.",
+		"LOGOUT_SUCCESS": "You are logout successfully",
+		"LOGIN_REQUIRE": "First you have to login",
+		"ADMIN": {
+			"USERNAME_REQUIRE": "Username (Email/ Username/ Contact No) is required"
+		},
+		"RESTAURANT_CUSTOMER": {
+			"USERNAME_REQUIRE": "Username (Email/ Contact No) is required"
+		},
+		"INVALID_TOKEN": "Your token is invalid !!! You have to log in again ..."
+	},
+	"ADMIN": {
+		"VALIDATIONS": {
+			"name": {
+				"required": "name is required",
+				"valid": "name length must be between 1 and 255",
+				"type": "name must be string"
+			},
+			"contact_no": {
+				"required": "contact no is required",
+				"valid": "contact no is invalid",
+				"type": "contact no must be number"
+			},
+			"email": {
+				"required": "email is required",
+				"valid": "email is invalid",
+				"type": "email must be string"
+			},
+			"username": {
+				"required": "username is required",
+				"valid": "username length must be between 1 and 20",
+				"type": "username must be string"
+			},
+			"password": {
+				"required": "password is required",
+				"valid": "password length must be between 8 and 16",
+				"type": "password must be string"
+			},
+			"address": {
+				"required": "address is required",
+				"valid": "address length must be between 1 and 255",
+				"type": "address must be string"
+			},
+			"pincode": {
+				"required": "pincode is required",
+				"valid": "pincode must be 6 digits",
+				"type": "pincode must be number"
+			},
+			"cur_password": {
+				"required": "current_password is required",
+				"valid": "current_password length must be between 8 and 16",
+				"type": "current_password must be string"
+			},
+			"new_password": {
+				"required": "new_password is required",
+				"valid": "new_password length must be between 8 and 16",
+				"type": "new_password must be string"
+			}
+		},
+		"ADMIN_EXIST": "Admin is already exists.",
+		"SIGNUP": "Sign up successfully.",
+		"NOT_FOUND": "Admin not found.",
+		"DETAIL": "Admin detail found",
+		"UPDATE_SUCCESS": "Admin details updated successfully"
+	},
+	"CUSTOMER": {
+		"VALIDATIONS": {
+			"firstname": {
+				"required": "firstname is required",
+				"valid": "firstname is length must be between 1 and 255",
+				"type": "firstname must be string"
+			},
+			"lastname": {
+				"required": "lastname is required",
+				"valid": "lastname length must be between 1 and 255",
+				"type": "lastname must be string"
+			},
+			"contact_no": {
+				"required": "contact no is required",
+				"valid": "contact no is invalid",
+				"type": "contact no must be number"
+			},
+			"email": {
+				"required": "email is required",
+				"valid": "email is invalid",
+				"type": "email must be string"
+			},
+			"password": {
+				"required": "password is required",
+				"valid": "password length must be between 8 and 16",
+				"type": "password must be string"
+			},
+			"address": {
+				"required": "address is required",
+				"valid": "address length must be between 1 and 255",
+				"type": "address must be string"
+			},
+			"state": {
+				"required": "state is required",
+				"valid": "state length must be between 1 and 45",
+				"type": "state must be string"
+			},
+			"city": {
+				"required": "city is required",
+				"valid": "city length must be between 1 and 45",
+				"type": "city must be string"
+			},
+			"pincode": {
+				"required": "pincode is required",
+				"valid": "pincode must be 6 digits",
+				"type": "pincode must be number"
+			},
+			"cur_password": {
+				"required": "current_password is required",
+				"valid": "current_password length must be between 8 and 16",
+				"type": "current_password must be string"
+			},
+			"new_password": {
+				"required": "new_password is required",
+				"valid": "new_password length must be between 8 and 16",
+				"type": "new_password must be string"
+			}
+		},
+		"CUSTOMER_EXIST": "Customer is already exists.",
+		"SIGNUP": "Sign up successfully.",
+		"NOT_FOUND": "Customer not found.",
+		"DETAIL": "Customer detail found",
+		"UPDATE_SUCCESS": "Customer details updated successfully"		
+	},
+	"RESTAURANT": {
+		"VALIDATIONS": {
+			"name": {
+				"required": "name is required",
+				"valid": "name length must be between 1 and 255",
+				"type": "name must be string"
+			},
+			"contact_no": {
+				"required": "contact no is required",
+				"valid": "contact no is invalid",
+				"type": "contact no must be number"
+			},
+			"email": {
+				"required": "email is required",
+				"valid": "email is invalid",
+				"type": "email must be string"
+			},
+			"password": {
+				"required": "password is required",
+				"valid": "password length must be between 8 and 16",
+				"type": "password must be string"
+			},
+			"address": {
+				"required": "address is required",
+				"valid": "address length must be between 1 and 255",
+				"type": "address must be string"
+			},
+			"state": {
+				"required": "state is required",
+				"valid": "state length must be between 1 and 45",
+				"type": "state must be string"
+			},
+			"city": {
+				"required": "city is required",
+				"valid": "city length must be between 1 and 45",
+				"type": "city must be string"
+			},
+			"pincode": {
+				"required": "pincode is required",
+				"valid": "pincode must be 6 digits",
+				"type": "pincode must be number"
+			},
+			"restaurant_image": {
+				"required": "restaurant_image is required",
+				"size": "restaurant_image must be less than 5 MB",
+				"type": "restaurant_image must be jpeg, jpg or png"
+			},
+			"restaurant_cover_image": {
+				"required": "restaurant_cover_image is required",
+				"size": "restaurant_cover_image must be less than 5 MB",
+				"type": "restaurant_cover_image must be jpeg, jpg or png"
+			},
+			"cur_password": {
+				"required": "current_password is required",
+				"valid": "current_password length must be between 8 and 16",
+				"type": "current_password must be string"
+			},
+			"new_password": {
+				"required": "new_password is required",
+				"valid": "new_password length must be between 8 and 16",
+				"type": "new_password must be string"
+			}
+		},
+		"RESTAURANT_EXIST": "Restaurant is already exists.",
+		"SIGNUP": "Sign up successfully.",
+		"NOT_FOUND": "Restaurant not found.",
+		"DETAIL": "Restaurant detail found",
+		"UPDATE_SUCCESS": "Restaurant details updated successfully"
+	},
+	"COUPON_CODE": {
+		"VALIDATIONS": {
+			"name": {
+				"required": "name is required",
+				"valid": "name length must be between 1 and 255",
+				"type": "name must be string"
+			},
+			"coupon_code": {
+				"required": "coupon_code is required",
+				"valid": "coupon_code length must be between 1 and 255",
+				"type": "coupon_code must be string"
+			},
+			"description": {
+				"required": "description is required",
+				"valid": "description length must be between 1 and 255",
+				"type": "description must be string"
+			},
+			"discount_percentage": {
+				"required": "discount_percentage is required",
+				"valid": "discount_percentage must be between 0 and 100",
+				"type": "discount_percentage must be number or float"
+			},
+			"no_of_coupons": {
+				"required": "no_of_coupons is required",
+				"valid": "no_of_coupons must be greater than 0 and also in 5 digits",
+				"type": "no_of_coupons must be number"
+			},
+			"min_pay_amt": {
+				"required": "min_pay_amt is required",
+				"valid": "min_pay_amt must be greater than 0",
+				"type": "min_pay_amt must be number"
+			},
+			"max_discount_amt": {
+				"required": "max_discount_amt is required",
+				"valid": "max_discount_amt must be greater than 0",
+				"type": "max_discount_amt must be number"
+			},
+			"status": {
+				"required": "status is required",
+				"valid": "status must be 0 or 1",
+				"type": "status must be number"
+			},
+			"available_date": {
+				"required": "available_date is required",
+				"valid": "available_date must be greater than current time",
+				"type": "available_date must be date"
+			},
+			"expiry_date": {
+				"required": "expiry_date is required",
+				"valid": "expiry_date must be greater than current time",
+				"compare": "expiry_date must be greater than available date",
+				"type": "expiry_date must be date"
+			}
+		},
+		"COUPON_CODE_EXIST": "Coupon Code is already exists.",
+		"NOT_FOUND": "Coupon Code not found.",
+		"ADDED_SUCCESS": "Coupon added successfully",
+		"DETAIL": "Coupon Code detail found",
+		"UPDATE_SUCCESS": "Coupon details updated successfully"
+	},
+	"CUISINE": {
+		"VALIDATIONS": {
+			"name": {
+				"required": "name is required",
+				"valid": "name length must be between 1 and 255",
+				"type": "name must be string"
+			},
+			"description": {
+				"required": "description is required",
+				"valid": "description length must be between 1 and 255",
+				"type": "description must be string"
+			}
+		},
+		"CUISINE_EXIST": "Cuisine is already exists.",
+		"NOT_FOUND": "Cuisine not found.",
+		"ADDED_SUCCESS": "Cuisine added successfully",
+		"DETAIL": "Cuisine detail found",
+		"UPDATE_SUCCESS": "Cuisine details updated successfully"
+	},
+	"ITEM": {
+		"VALIDATIONS": {
+			"name": {
+				"required": "name is required",
+				"valid": "name length must be between 1 and 255",
+				"type": "name must be string"
+			},
+			"description": {
+				"required": "description is required",
+				"valid": "description length must be between 1 and 1000",
+				"type": "description must be string"
+			},
+			"item_image": {
+				"required": "item_image is required",
+				"size": "item_image must be less than 5 MB",
+				"type": "item_image must be jpeg, jpg or png"
+			},
+			"price": {
+				"required": "price is required",
+				"valid": "price must be greater than 0",
+				"type": "price must be number"
+			}
+		},
+		"ITEM_EXIST": "Item is already exists.",
+		"NOT_FOUND": "Item not found.",
+		"ADDED_SUCCESS": "Item added successfully",
+		"DETAIL": "Item detail found",
+		"UPDATE_SUCCESS": "Item details updated successfully"
+	}
+}
